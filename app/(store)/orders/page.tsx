@@ -94,7 +94,7 @@ export default async function Orders() {
                   </span>
                 </p>
 
-                <div className="space-y-3 sm:space-y-4">
+                {/* <div className="space-y-3 sm:space-y-4">
                   {order.products?.map((product) => (
                     <div
                       key={product.product?._id}
@@ -127,7 +127,7 @@ export default async function Orders() {
 
                     </div>
                   ))}
-                </div>
+                </div> */}
 
 
               </div>

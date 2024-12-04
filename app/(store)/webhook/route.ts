@@ -73,7 +73,7 @@ async function createOrderInSanity(session: Stripe.Checkout.Session) {
         id,
         {
             expand: ["data.price.product"],
-        }
+        } 
     )
 
     const sanityProducts = lineItemsWithProduct.data.map((item) => ({
